@@ -1,3 +1,87 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+/*    padding-bottom: 60px;*/
+}
+
+#name, .newsfeed a {
+    color: #41A515;
+}
+
+#name {
+    font-size: 150px;
+    margin-top: 70px;
+    margin-right: 160px;
+}
+
+#tagline {
+    font-size: 60px;
+    font-style: italic;
+    margin: 200px -600px 0 0;,
+}
+
+#name, #tagline {
+    float: right;
+}
+
+#flourish-1 {
+    position: absolute;
+    font-size: 80px;
+    opacity: 0.2;
+    margin: 180px 0 0 700px;
+}
+
+.page-title {
+    position: absolute;
+    font-size: 300px;
+    opacity: 0.2;
+    color: #41A515;
+    margin: 200px 0 0 0;
+    font-style: italic;
+}
+
+.nav {
+    position: absolute;
+    margin-top: 60px;
+}
+
+.local-a {
+    background-color: rgba(65, 165, 21, 0.53);
+    width: 60px;
+    color: white;
+    line-height: 30px;
+    margin: 0 40px 0 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px 2px 30px 2px;
+}
+
+.local-a a {
+    margin-left: -20px;
+}
+
+.external-a {
+    font-size: 20px;
+    line-height: 25px;
+}
+
 li {
     list-style: none;
+}
+
+.newsfeed {
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 2px 2px 100px 2px;
+    width: 500px;
+    margin: 140px 0 0 420px;
+    padding: 0 20px 20px;
+    max-height: 300px;
+    overflow-y: auto;
 }
