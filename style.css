@@ -15,15 +15,18 @@ header {
 }
 
 #name {
-    font-size: 150px;
+    font-size: 130px;
     margin-top: 70px;
-    margin-right: 160px;
+    margin-right: 240px;
 }
 
 #tagline {
-    font-size: 60px;
+    color: #95989A;
+    font-size: 70px;
     font-style: italic;
-    margin: 200px -600px 0 0;,
+    margin: 180px -750px 0 0;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 #name, #tagline {
@@ -34,7 +37,14 @@ header {
     position: absolute;
     font-size: 80px;
     opacity: 0.2;
-    margin: 180px 0 0 700px;
+    margin: 220px 0 0 700px;
+}
+
+#motif {
+    position: absolute;
+    right: 0;
+    z-index: -10;
+    opacity: 0.2;
 }
 
 .page-title {
@@ -44,6 +54,7 @@ header {
     color: #41A515;
     margin: 200px 0 0 0;
     font-style: italic;
+    font-weight: 900;
 }
 
 .nav {
@@ -67,8 +78,9 @@ header {
 }
 
 .external-a {
+    margin: 70px 0 0 0;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 li {
@@ -77,7 +89,7 @@ li {
 
 .newsfeed {
     font-size: 14px;
-    border: 1px solid white;
+    border: 0.25px solid #95989A;
     border-radius: 2px 2px 100px 2px;
     width: 500px;
     margin: 140px 0 0 420px;
